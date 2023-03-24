@@ -3,11 +3,10 @@ module github.com/suzuki-shunsuke/github-comment
 go 1.16
 
 require (
-	github.com/Masterminds/sprig/v3 v3.2.2
+	github.com/Masterminds/sprig/v3 v3.2.3
 	github.com/antonmedv/expr v1.12.5
 	github.com/drone/envsubst v1.0.3
 	github.com/google/uuid v1.1.2 // indirect
-	github.com/huandu/xstrings v1.3.2 // indirect
 	github.com/mattn/go-colorable v0.1.13
 	github.com/shurcooL/githubv4 v0.0.0-20201206200315-234843c633fa
 	github.com/shurcooL/graphql v0.0.0-20200928012149-18c5c3165e3a // indirect
@@ -19,7 +18,7 @@ require (
 	github.com/suzuki-shunsuke/go-httpclient v1.0.0
 	github.com/suzuki-shunsuke/go-timeout v1.0.0
 	github.com/urfave/cli/v2 v2.4.0
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	golang.org/x/crypto v0.3.0
 	golang.org/x/oauth2 v0.0.0-20210113205817-d3ed898aa8a3
 	gopkg.in/yaml.v2 v2.4.0
 )
